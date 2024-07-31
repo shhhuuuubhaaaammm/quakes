@@ -1,0 +1,212 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow-y: scroll;
+    background: url(./assets/indian\ map\ night.avif);
+    background-size: cover;
+    cursor: default;
+}
+.main {
+    height: 100vh;
+    
+}
+
+.index{
+    background-color: rgba(0, 0, 0, 0.95);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    top: 0;
+    width: 100%;
+    height: 10%;
+    /* font-size: 2rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1rem;
+    box-shadow: 0 0 15px rgba(192, 192, 192, 0.75);
+    position: sticky;
+    z-index: 10;
+    /* border-bottom: rgba(192, 192, 192, 0.75); */
+}
+.sub-index{
+    background-color: transparent;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+/* .home{
+    background-color: green;
+    height: 100%;
+} */
+#check{
+    display: none;
+}
+/* #check2{
+    display: none;
+}
+#check3{
+    display: none;
+}
+#check4{
+    display: none;
+}
+#check5{
+    display: none;
+} */
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    opacity: 0.7;
+}
+.home i{
+    margin-right: 1rem;
+    font-size: 2rem;
+    opacity: 0.7;
+}
+/* .index-icons:hover{
+    font-size: 1.75rem;
+}
+a:hover{
+    font-size: 1.75rem;
+}
+.home a:hover{
+    font-size: 1.75rem;
+}
+.news a{
+    font-size: 1.75rem;
+}
+.index .sub-index .home a:hover{
+    font-size: 5rem;
+} */
+
+.home i:hover{
+    opacity: 1;
+}
+.home a:hover{
+    opacity: 1;
+}
+.news-articles{
+    background-color: transparent;
+    width: auto;
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    
+    /* overflow-y: scroll; */
+}
+.news-heading{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: transparent;
+    padding-left: 1rem;
+    /* padding-right: 1rem; */
+    width: auto; 
+    height: 50px;
+    margin-bottom: 1rem;
+    display: flex;
+    border-radius: 0.5rem;
+    justify-content: left;
+    align-items: center;
+    color: red;
+    box-shadow: 0 0 15px rgba(192, 192, 192, 0.75);
+}
+.news-content{
+    background-color: transparent;
+    width: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.news-cards{
+    background-color: transparent;
+    /* margin-bottom: 1rem; */
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    border-radius: 0.5rem;    
+    box-shadow: 0 0 15px rgba(192, 192, 192, 0.25);
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+.news-img{
+    height: 200px;
+    width: auto;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+/* .news-topic{
+    font-size: 1.5rem;
+} */
+.news-topic h3{
+    background-color: transparent;
+    box-shadow: 0 0 15px rgba(192, 192, 192, 0.5);
+    border-radius: 0.5rem;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    height: auto;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.news-credits{
+    padding-left: 1rem;
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+.news-subject{
+    background-color: transparent;
+    padding: 1rem;
+    font-size: 1.15rem;
+    /* margin-bottom: 0; */
+}
+.news-body{
+    /* margin: 0; */
+    
+    background-color: transparent;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.news-credits:hover{
+    opacity: 1;
+}
+/* x */
+/* .news-content > .news-cards:hover{
+    
+    align-self: start;
+    width: 40%;
+} */
+/* .news-content > .news-cards:hover{
+    background-color: green;
+} */
+.news-cards:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(192, 192, 192, 0.75);
+    /* width: 60%; */
+    height: max-content;
+    /* flex-direction: column; */
+    /* display: flex;
+    justify-content: end; */
+    /* align-self: end; */
+    /* justify-self: end; */
+}
+/* .news-cards .news-img:hover{
+    height: min-content;
+} */
+/* .news-cards: */
+/* .news-cards:hover{
+    align-self: start;
+    width: 40%;
+} */

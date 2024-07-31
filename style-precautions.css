@@ -1,0 +1,240 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow-y: scroll;
+    background: url(./assets/indian\ map\ night.avif);
+    background-size: cover;
+    cursor: default;
+}
+.main {
+    height: 100vh;
+    
+}
+
+.index{
+    background-color: rgba(0, 0, 0, 0.95);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    top: 0;
+    width: 100%;
+    height: 10%;
+    /* font-size: 2rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1rem;
+    box-shadow: 0 0 15px rgba(192, 192, 192, 0.75);
+    position: sticky;
+    z-index: 10;
+    /* border-bottom: rgba(192, 192, 192, 0.75); */
+}
+.sub-index{
+    background-color: transparent;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+/* .home{
+    background-color: green;
+    height: 100%;
+} */
+#check{
+    display: none;
+}
+/* #check2{
+    display: none;
+}
+#check3{
+    display: none;
+}
+#check4{
+    display: none;
+}
+#check5{
+    display: none;
+} */
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    opacity: 0.7;
+}
+.home i{
+    margin-right: 1rem;
+    font-size: 2rem;
+    opacity: 0.7;
+}
+/* .index-icons:hover{
+    font-size: 1.75rem;
+}
+a:hover{
+    font-size: 1.75rem;
+}
+.home a:hover{
+    font-size: 1.75rem;
+}
+.news a{
+    font-size: 1.75rem;
+}
+.index .sub-index .home a:hover{
+    font-size: 5rem;
+} */
+
+.home i:hover{
+    opacity: 1;
+}
+.home a:hover{
+    opacity: 1;
+}
+
+.hazards-content{
+    /* color: white;
+    background-color: red; */
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+}
+.hazards-heading{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+    /* padding-right: 1rem; */
+    width: auto; 
+    height: 50px;
+    margin-bottom: 1rem;
+    display: flex;
+    border-radius: 0.5rem;
+    justify-content: start;
+    align-items: center;
+    
+    box-shadow: 0 0 15px rgba(192, 192, 192, 0.5);
+    /* border: rgba(192, 192, 192, 0.75); */
+    /* box-shadow: 0 2px 15px silver; */
+    /* box-shadow: 0 0 15px 0 rgba(192, 192, 192, 0.75); */
+    /* height: 10%; */
+    /* position: relative; */
+}
+.hazards-body{
+    background-color: transparent;
+}
+/* .frame{
+    background-color: red;
+    opacity: 1;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    align-items: end;
+    right: 0;
+} */
+.home1{
+    background-color: transparent;
+    
+    width: 30%;
+}
+/* .home1 a{
+    position: absolute;
+    cursor: pointer;
+} */
+.home1 .working{
+    
+    /* color: white;
+    font-size: 30px;
+    font-weight: 700; */
+    position: absolute;
+    /* left: 16px;
+    line-height: 60px; */
+    cursor: pointer;
+    /* transition: all 0.3s linear; */
+}
+.option{
+    font-size: 1.25rem;
+    height: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.option:hover{
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.75);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.frame{
+    position: absolute;
+    top: 187px;
+    opacity: 0;
+    /* top: 200px; */
+    left: 494px;
+    height: auto;
+    width: 897px;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    /* transition: all 0.3s linear; */
+}
+/* .frame:hover{
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.75);
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+.hide-check{
+    display: none;
+
+}
+
+/* #check1:checked ~ .frame{
+    opacity: 1;
+    left: 40rem;
+} */
+#check1:checked ~ .frame1{
+    opacity: 1;
+    /* height: 100px; */
+}
+#check2:checked ~ .frame2{
+    opacity: 1;
+    /* height: 100px; */
+}
+#check3:checked ~ .frame3{
+    opacity: 1;
+    /* height: 100px; */
+}
+#check4:checked ~ .frame4{
+    opacity: 1;
+    /* height: 100px; */
+}
+#check5:checked ~ .frame5{
+    opacity: 1;
+    /* height: 100px; */
+}
+#check6:checked ~ .frame6{
+    opacity: 1;
+    /* height: 100px; */
+}
+#check7:checked ~ .frame7{
+    opacity: 1;
+    /* height: 100px; */
+}
+#check8:checked ~ .frame8{
+    opacity: 1;
+    /* height: 100px; */
+}
+#check9:checked ~ .frame9{
+    opacity: 1;
+    /* height: 100px; */
+}
+#check10:checked ~ .frame10{
+    opacity: 1;
+    /* height: 100px; */
+}
+.frame ul li{
+    margin-bottom: 0.5rem;
+}

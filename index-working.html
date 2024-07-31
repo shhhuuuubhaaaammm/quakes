@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo_temp.avif">
+    <title>Woodpecker prototype</title>
+    <link rel="stylesheet" href="style-working.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="index">
+            <div class="sub-index">
+                <input type="checkbox" id="check" />
+                <div class="home">
+                    <label for="check" style="color: white">
+                        <i class="fa-solid fa-house"></i>
+                        <!-- <p>HOME</p> -->
+                        <a href="#">HOME</a>
+                    </label>
+                </div>
+                <input type="checkbox" id="check" />
+                <div class="home">
+                    <label for="check" style="color: white">
+                        <a href="#">WORKING</a>
+                    </label>
+                </div>
+                <input type="checkbox" id="check" />
+                <div class="home">
+                    <label for="check" style="color: white">
+                        <a href="#">NEWS</a>
+                    </label>
+                </div>
+                <input type="checkbox" id="check" />
+                <div class="home">
+                    <label for="check" style="color: white">
+                        <a href="#">HAZARDS</a>
+                    </label>
+                </div>
+                <input type="checkbox" id="check" />
+                <div class="home">
+                    <label for="check" style="color: white">
+                        <a href="#">PRECAUTIONS</a>
+                    </label>
+                </div>
+            </div>  
+        </div>
+        <div class="content">
+            <div class="heading">
+                <h2>Working</h2>
+            </div>
+            <div class="cards">
+                <div class="work-card">
+                    <img src="./assets/data collection real.jpg" class="image">
+                    <div class="data">
+                        <h3>Data Collection</h3>
+                        <div class="info">
+                            <p>The system collects data from various sources, including:</p>
+                            <ul>
+                                <li>Historical Data: Government databases, research institutions, past disaster records</li>
+                                <li>Real-time Inputs: Sensors, satellites, weather stations, social media</li>
+                                <li>Data Types: Geospatial data, meteorological data, seismic data, hydrological data</li>
+                            </ul>
+                            <p>This diverse data collection is essential for accurate predictions and effective response strategies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="end-side work-card">
+                    <img src="./assets/data processing.jpg" class="image">
+                    <div class="data">
+                        <h3>Data Processing</h3>
+                        <div class="info">
+                            <p>Data processing involves several steps:</p>
+                            <ul>
+                                <li>Machine Learning Algorithms: Utilizing deep learning and neural networks to analyze data (e.g., TensorFlow, PyTorch).</li>
+                                <li>Data Analysis Techniques: Time series analysis, pattern recognition, anomaly detection using tools like Pandas, NumPy, and Scikit-learn.</li>
+                                <li>Data Quality and Preprocessing: Ensuring data quality and preprocessing to remove noise and errors, using data cleaning and normalization techniques.</li>
+                            </ul>
+                            <p>Effective data processing is crucial for making accurate predictions and informed decisions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <img src="./assets/Prediction Module.jpg" class="image">
+                    <div class="data">
+                        <h3>Prediction Module</h3>
+                        <div class="info">
+                            <p>The prediction module focuses on:</p>
+                            <ul>
+                                <li>Earthquake Prediction: Analyzing seismic activity and fault lines using technologies like TensorFlow, PyTorch, and seismic data analysis tools.</li>
+                                <li>Flood Prediction: Hydrological modeling based on rainfall, river levels, and soil moisture using HEC-RAS, SWMM, and machine learning algorithms.</li>
+                                <li>Hurricane Prediction: Meteorological data analysis, tracking storm formation and movement with tools like WRF (Weather Research and Forecasting Model), ARPEGE, and satellite data processing.</li>
+                            </ul>
+                            <p>The module aims to provide accurate and timely predictions to minimize the impact of natural disasters.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="end-side work-card">
+                    <img src="./assets/Response Strategy Module.jpg" class="image">
+                    <div class="data">
+                        <h3>Response Strategy Module</h3>
+                        <div class="info">
+                            <p>The response strategy module includes:</p>
+                            <ul>
+                                <li>Optimal Response Strategies: Developing evacuation plans, resource distribution models using GIS software (e.g., ArcGIS, QGIS) and optimization tools (e.g., Gurobi, CPLEX).</li>
+                                <li>Real-time Decision Making: Dynamic updates based on current situation, real-time data analysis with platforms like Apache Kafka for data streaming and Tableau for real-time visualization.</li>
+                                <li>Collaboration: Coordinating with emergency responders, authorities, and community leaders using communication tools such as Slack, Microsoft Teams, and emergency management software like WebEOC.</li>
+                            </ul>
+                            <p>This module helps ensure efficient and effective disaster response, reducing loss of life and property.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
